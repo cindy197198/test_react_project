@@ -1,13 +1,150 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main__wrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.container {
+  height: inherit;
+}
+
+.navbar {
+  justify-content: center !important;
+  background: transparent !important;
+}
+.btn {
+  cursor: pointer !important;
+  background: #ffffff !important;
+  box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
+  border-radius: 20px !important;
+  color: #4d7cf3 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  height: 40px !important;
+}
+
+input {
+  box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  width: 326px !important;
+  height: 48px !important;
+  border: none !important;
+  padding: 20px;
+}
+
+input:focus-visible {
+  outline: none !important;
+}
+
+.call-btn {
+  border-color: #4d7cf3 !important;
+  width: 38px;
+  height: 38px !important;
+  position: relative;
+}
+
+.call-icon {
+  position: relative;
+  top: -1px !important;
+  right: 4px !important;
+}
+
+.notification {
+  position: relative;
+  margin: 0px 37px;
+}
+.bell-icon {
+  position: relative;
+  top: -3px;
+}
+
+.noti-dot {
+  background-color: #f74a4a;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  right: -14px;
+  z-index: 1;
+}
+.membership-item-container {
+  width: 326px;
+  height: 200px;
+  border: 3px solid #414d55;
+  box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
+  border-radius: 20px;
+  margin: auto !important;
+  text-align: initial;
+  padding: 20px;
+  margin-bottom: 17px !important;
+}
+
+.membership-item-container p {
+  color: #414d55;
+}
+
+.membership-item-container .content p {
+  font-weight: 400;
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.sar-number {
+  color: #4D7CF3 !important;
+  font-weight: 400;
+}
+
+.Platinum {
+  border-color: #414D55;
+}
+
+.Golden {
+  border-color: #D39429;
+}
+
+.Silver {
+  border-color: #C4C4C4;
+}
+
+.choose-btn {
+  margin-top: 44px;
+}
+
+.price {
+  color: #4D7CF3 !important;
+  font-weight: 600;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.user-name {
+  color: #414D55;
+}
+
+.text-align-center {
+  align-self: center;
 }

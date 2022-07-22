@@ -1,0 +1,15 @@
+.membership-container {
+  width: 326px;
+  height: 285px;
+  box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
+  border-radius: 20px;
+  margin: auto;
+  padding: 100px 0;
+  margin-top: 86px;
+}
+
+.membership-container p {
+    color: #414D55;
+    margin-bottom: 35px;
+    font-weight: 400;
+}

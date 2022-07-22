@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import VerificationCode from "./request_verification";
+import Welcome from "./welcome";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import UserMembership from "./user_membership";
+import ListMembership from "./list_membership";
+import MembershipRegistration from "./membership_registration";
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Welcome} />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <Route path="/verification-step-1" component={() => <VerificationCode step = {1} />} />
+            <Route path="/verification-step-2" component={() => <VerificationCode step = {2} />} />
+            <Route path="/my-membership" component={UserMembership} />
+            <Route path="/list-membership" component={ListMembership} />
+            <Route path="/register-membership" component={MembershipRegistration} />
+            <Redirect to="/" />
+          </Switch>
+        </Router>
+      </>
+    );
+  }
 }
 
 export default App;

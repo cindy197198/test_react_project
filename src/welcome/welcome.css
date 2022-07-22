@@ -1,0 +1,34 @@
+.card__box {
+    height: inherit;
+    padding: 50px 10px;
+    background-color: #4d7cf3;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%),
+      0 0.9375rem 1.40625rem rgb(90 97 105 / 10%),
+      0 0.25rem 0.53125rem rgb(90 97 105 / 12%),
+      0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+    text-align: center;
+  }
+  .text__container {
+    text-align: center;
+  }
+  
+  .logo {
+    margin-top: 136px;
+    margin-bottom: 55px;
+  }
+  
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #fff;
+    letter-spacing: -0.02em;
+  }
+  
+  .next-btn {
+    width: 199px;
+    margin-top: 80px;
+  }
+  
