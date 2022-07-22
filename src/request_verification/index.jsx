@@ -10,7 +10,7 @@ class VerificationCode extends Component {
       <div className="main__wrap">
         <main className="container">
           <div className="card__container">
-            <div className="row">
+            <div className="row center">
               <div className="col-12">
                 <NavBar />
               </div>

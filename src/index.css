@@ -148,3 +148,7 @@ input:focus-visible {
 .text-align-center {
   align-self: center;
 }
+
+.center {
+  justify-content: center !important;
+}

@@ -7,7 +7,7 @@ class Welcome extends Component {
       <div className="main__wrap">
         <main className="container">
           <div className="card__box">
-            <div className="row">
+            <div className="row center">
               <div className="logo">
                 <img src="/image/logo.png" width="350" height="200" />
               </div>

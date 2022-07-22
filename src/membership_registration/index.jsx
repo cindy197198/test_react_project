@@ -47,9 +47,6 @@ class MembershipRegistration extends Component {
               <div className="col-12">
                 <button
                   className="btn next-btn"
-                  onClick={() =>
-                    this.props.history.push("/verification-step-2")
-                  }
                 >
                   MADA
                 </button>
