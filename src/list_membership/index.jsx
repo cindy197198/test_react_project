@@ -11,7 +11,7 @@ class ListMembership extends Component {
           <div className="card__container">
             <div className="row">
               <div className="col-12">
-                <NavBar />
+                <NavBar isShowProfile={false} />
               </div>
               <div className="col-12">
                 <div className="membership-list mt-5">

@@ -38,10 +38,11 @@ input {
   box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
   border-radius: 20px;
   background-color: #fff;
-  width: 326px !important;
+  width: inherit !important;
   height: 48px !important;
   border: none !important;
   padding: 20px;
+  font-size: 14px !important;
 }
 
 input:focus-visible {
@@ -81,7 +82,7 @@ input:focus-visible {
   z-index: 1;
 }
 .membership-item-container {
-  width: 326px;
+  width: inherit;
   height: 200px;
   border: 3px solid #414d55;
   box-shadow: 0px 1px 8px rgba(20, 46, 110, 0.1);
@@ -103,25 +104,25 @@ input:focus-visible {
 .circle {
   width: 26px;
   height: 26px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 50%;
 }
 
 .sar-number {
-  color: #4D7CF3 !important;
+  color: #4d7cf3 !important;
   font-weight: 400;
 }
 
 .Platinum {
-  border-color: #414D55;
+  border-color: #414d55;
 }
 
 .Golden {
-  border-color: #D39429;
+  border-color: #d39429;
 }
 
 .Silver {
-  border-color: #C4C4C4;
+  border-color: #c4c4c4;
 }
 
 .choose-btn {
@@ -129,7 +130,7 @@ input:focus-visible {
 }
 
 .price {
-  color: #4D7CF3 !important;
+  color: #4d7cf3 !important;
   font-weight: 600;
 }
 
@@ -142,7 +143,8 @@ input:focus-visible {
 }
 
 .user-name {
-  color: #414D55;
+  color: #414d55;
+  min-width: 120px;
 }
 
 .text-align-center {
@@ -151,4 +153,20 @@ input:focus-visible {
 
 .center {
   justify-content: center !important;
+}
+
+.profile-info {
+  width: fit-content;
+}
+
+.action-buttons {
+  position: relative;
+  top: 8px;
+}
+
+.expire-date {
+}
+
+.secret-code {
+  margin-left: 21px;
 }

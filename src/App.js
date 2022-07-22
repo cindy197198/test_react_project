@@ -22,7 +22,8 @@ class App extends Component {
             <Route path="/verification-step-2" component={() => <VerificationCode step = {2} />} />
             <Route path="/my-membership" component={UserMembership} />
             <Route path="/list-membership" component={ListMembership} />
-            <Route path="/register-membership" component={MembershipRegistration} />
+            <Route path="/register-membership" component={() => <MembershipRegistration step = {1} />} />
+            <Route path="/register-membership-step-2" component={() => <MembershipRegistration step = {2} />} />
             <Redirect to="/" />
           </Switch>
         </Router>

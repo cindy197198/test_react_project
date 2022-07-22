@@ -1,11 +1,12 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = (props) => {
+  console.log(props)
   return (
     <nav className="w-100 float-right">
       <div className="row">
-        <div className="col-6" hidden="true">
-          <div className="row">"
+        <div className="col-6" hidden={!props.isShowProfile}>
+          <div className="row profile-info">
             <div className="col-6" >
               <img
                 className="profile-image"
@@ -19,8 +20,8 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-        <div className="col-12">
-          <div className="row float-right">
+        <div className={props.isShowProfile ? "col-6" : "col-12"}>
+          <div className="row float-right action-buttons">
             <button className="btn call-btn">
               <img
                 className="call-icon"

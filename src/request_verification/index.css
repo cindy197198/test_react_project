@@ -1,5 +1,6 @@
 .card__container {
-    height: inherit;
+  min-height: 100vh;
+    height: fit-content;
     padding: 50px 10px;
     background-color: #fff;
     box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%),
