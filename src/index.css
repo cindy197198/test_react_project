@@ -170,3 +170,8 @@ input:focus-visible {
 .secret-code {
   margin-left: 21px;
 }
+
+.blue-card {
+  border: none;
+  background-color: #E3EBFF;
+}

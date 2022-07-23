@@ -14,7 +14,7 @@ class MembershipRegistration extends Component {
                 <NavBar isShowProfile={this.props.step !== 1} />
               </div>
               <div className="col-12">
-                <div className="membership-item-container my-5">
+                <div className={"membership-item-container my-5 " + (this.props.step !== 1 ? "blue-card" : "")}>
                   <div className="col-12">
                     <p className="row mb-2">Platinum Membership</p>
                     <div className="row">
@@ -99,7 +99,7 @@ class MembershipRegistration extends Component {
                     <button
                       className="btn next-btn"
                       onClick={() =>
-                        this.props.history.push("/register-membership-step-2")
+                        this.props.history.push("/golden-membership")
                       }
                     >
                       PAY

@@ -1,7 +1,6 @@
 import React from "react";
 
 const NavBar = (props) => {
-  console.log(props)
   return (
     <nav className="w-100 float-right">
       <div className="row">
@@ -15,7 +14,7 @@ const NavBar = (props) => {
                 height="70"
               />
             </div>
-            <div className="col-6 text-align-center">
+            <div className="col-6 text-align-center pl-0">
               <p className="user-name">adel saeed</p>
             </div>
           </div>

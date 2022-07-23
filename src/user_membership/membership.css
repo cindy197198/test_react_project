@@ -8,8 +8,58 @@
   margin-top: 86px;
 }
 
+.membership-container.golden {
+  border: 3px solid #d39429;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 1px 8px rgba(20, 46, 110, 0.1);
+  padding: 50px 0;
+  margin-top: 20px;
+}
+
 .membership-container p {
-    color: #414D55;
-    margin-bottom: 35px;
-    font-weight: 400;
+  color: #414d55;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+
+.membership-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.golden-image {
+  width: 100%;
+  position: absolute !important;
+  bottom: 0px;
+  right: 15px;
+}
+
+.golden-image img{
+  width: inherit;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.golden-detail {
+  width: 100%;
+  height: 50%;
+  background-color: #D39429;
+  border-radius: 20px 20px 0px 0px;
+  position: absolute !important;
+  bottom: 0px;
+  right: 15px;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 32px;
+  font-weight: 400;
 }

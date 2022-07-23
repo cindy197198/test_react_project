@@ -27,7 +27,7 @@
   }
   
   .next-btn {
-    width: 199px;
+    min-width: 199px;
     margin-top: 40px;
   }
   
